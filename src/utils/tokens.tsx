@@ -1,9 +1,9 @@
 import * as BufferLayout from 'buffer-layout';
 import bs58 from 'bs58';
 import {AccountInfo, Connection, PublicKey} from '@solana/web3.js';
-import {WRAPPED_SOL_MINT} from '@project-serum/serum/lib/token-instructions';
+import {WRAPPED_SOL_MINT} from '@abytecurious/serum/lib/token-instructions';
 import {TokenAccount} from './types';
-import {TOKEN_MINTS} from '@project-serum/serum';
+import {TOKEN_MINTS} from '@abytecurious/serum';
 import {useAllMarkets, useCustomMarkets, useTokenAccounts} from './markets';
 import {getMultipleSolanaAccounts} from './send';
 import {useConnection} from './connection';

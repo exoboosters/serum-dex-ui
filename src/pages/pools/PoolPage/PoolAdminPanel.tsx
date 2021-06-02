@@ -1,6 +1,6 @@
 import React, { FormEvent, useMemo, useState } from 'react';
 import { AdminControlledPoolInstructions, PoolInfo } from '@project-serum/pool';
-import { TokenInstructions } from '@project-serum/serum';
+import { TokenInstructions } from '@abytecurious/serum';
 import FloatingElement from '../../../components/layout/FloatingElement';
 import { useConnection } from '../../../utils/connection';
 import { useWallet } from '../../../utils/wallet';

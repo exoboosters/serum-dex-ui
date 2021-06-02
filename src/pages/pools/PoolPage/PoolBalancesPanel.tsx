@@ -11,7 +11,7 @@ import FloatingElement from '../../../components/layout/FloatingElement';
 import { useTokenAccounts } from '../../../utils/markets';
 import { MintName } from '../../../components/MintName';
 import { LinkOutlined } from '@ant-design/icons';
-import { WRAPPED_SOL_MINT } from '@project-serum/serum/lib/token-instructions';
+import { WRAPPED_SOL_MINT } from '@abytecurious/serum/lib/token-instructions';
 
 const { TabPane } = Tabs;
 

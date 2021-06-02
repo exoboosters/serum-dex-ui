@@ -20,9 +20,9 @@ import {
   OpenOrders, parseInstructionErrorResponse,
   TOKEN_MINTS,
   TokenInstructions,
-} from '@project-serum/serum';
+} from '@abytecurious/serum';
 import { SelectedTokenAccounts, TokenAccount } from './types';
-import { Order } from '@project-serum/serum/lib/market';
+import { Order } from '@abytecurious/serum/lib/market';
 import { Buffer } from 'buffer';
 import assert from 'assert';
 import { struct } from 'superstruct';
